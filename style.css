@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+header input {
+    width: 30rem;
+    border-radius: 30px;
+    margin: auto;
+    height: 3rem;
+}
+
+
+.logo img {
+    width: 8rem;
+}
+
+header .conta img {
+    width: 2rem;
+}
+
+#contas {
+    width: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+#carrinho {
+    margin-bottom: 16px;
+    scale: 1.1;
+}
+
+#banner {
+    padding: 0;
+    margin: 0;
+}
+
+#secoes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    padding: 15px;
+    background-color: #390D0C;
+}
+
+#secoes a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#secoes2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#secoes2 img {
+    margin-left: 8px;
+}
+
+.las {
+    width: 5rem;
+    border: 2px solid #931A29;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.las img {
+    width: 3rem;
+    margin-left: 3px;
+}
+
+.las:hover {
+    background-color: #e65f71;
+    transition: 1s;
+}
+
+
+.urso {
+    width: 5rem;
+    border: 2px solid #931A29;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.urso:hover {
+    background-color: #e65f71;
+    transition: 1s;
+}
+
+.urso img {
+    width: 2rem;
+}
+
+.trico {
+    width: 5rem;
+    border: 2px solid #931A29;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.trico:hover {
+    background-color: #e65f71;
+    transition: 1s;
+}
+
+.trico img {
+    width: 3rem;
+}
+
+.barbante {
+    width: 5rem;
+    border: 2px solid #931A29;
+    border-radius: 30px;
+
+    padding: 5px;
+}
+
+.barbante:hover {
+    background-color: #e65f71;
+    transition: 1s;
+}
+
+.barbante img {
+    width: 3rem;
+}
+
+.foto {
+    height: 3.4rem;
+}
+
+#vitrine {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#sub h2 {
+    color: #931A29;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#produtos .arvore1 img {
+    width: 10rem;
+}
+
+.arvore1:hover {
+    scale: 1.2;
+    transition: 1s;
+    -webkit-box-shadow: 2px 5px 18px 3px #000000;
+    box-shadow: 2px 5px 18px 3px #000000;
+}
+
+.arvore1 p {
+    padding-top: 10px;
+    margin: 3px;
+}
+
+.arvore1 button {
+    width: 100%;
+    background-color: #5BB75B;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.arvore1 button:hover {
+    scale: 1.1px;
+}
